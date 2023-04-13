@@ -6,14 +6,13 @@ import React from 'react'
 
 export default function Providers({children}) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
-      <div
-        className="dark:bg-gray-700 dark:text-gray-200 
+    <ThemeProvider enableSystem={true} attribute='class'>
+        <div className='dark:bg-gray-700 dark:text-gray-200 
         transition-colors duration-300 min-h-screen
-         text-gray-700 select-none"
-      >
+         text-gray-700 select-none'>
         {children}
-      </div>
+        </div>
+            
     </ThemeProvider>
-  );
+  )
 }
