@@ -40,4 +40,4 @@ export default function Card({result}) {
   );
 }
 
- 
+Expectations & Goals: I was able to learn Typescript and Next js which was handful in contributing to Zest and Mpi project. Achievement: I had a grasp of what NextJs Frame work  and Typescript is all about. Limitations and Challenges: Nill Learning: Typescript  Developement needs: Deep and Nested Routing and also Code review
