@@ -23,19 +23,10 @@ export default function Card({result}) {
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200 "
         />
 
-        <div className="">
-          <p className="line-clamp-2 text-md ">{result.overview}</p>
-          <h2 className="truncate text-lg font-bold ">
-            {result.title || result.name}
-          </h2>
-          <div className="flex items-center gap-2">
-            <p>{result.release_date || result.first_air_date}</p>
-
-            <FiThumbsUp className="h-5 mr-1 ml-3" />
-            <p>{result.vote_count}</p>
-          </div>
-        </div>
+       
       </Link>
     </div>
   );
 }
+
+ 
